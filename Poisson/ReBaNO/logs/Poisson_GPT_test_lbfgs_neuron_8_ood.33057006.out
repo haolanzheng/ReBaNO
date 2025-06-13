@@ -1,0 +1,7 @@
+Current Device: cuda
+avg training time on training dataset: 0.3983222238561139 seconds
+mean loss on training dataset: 0.00031262465051037225
+mean rel train err: 0.0011431132780289773, largest rel train err: 0.02077164500951767
+avg training time on test dataset: 0.4065124273733236 seconds
+mean loss on test dataset: 0.0001701824464944366
+mean rel test err: 0.007973306244879495, largest rel test err: 0.07171972095966339

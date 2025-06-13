@@ -1,0 +1,195 @@
+Current Device: cuda
+Expected Final GPT-PINN Depth: [1, 8, 1]
+
+******************************************************************
+Begin Full PINN Training: case = 0 (Obtaining Neuron 1)
+Epoch: 5000 | loss: 0.0028752442449331284	 ep time: 0.001621915027499199
+Epoch: 10000 | loss: 9.169438999379054e-05	 ep time: 0.0015934989787638187
+Epoch: 15000 | loss: 5.2164086810080335e-06	 ep time: 0.0016170049784705043
+Epoch: 20000 | loss: 1.6800109960968257e-06	 ep time: 0.0015991380205377936
+Epoch: 23957 | loss: 9.99943495116895e-07 (Stopping criteria met!)
+PINN training completed!
+PINN Training Time: 0.018026264731662297 Hours
+pinn rel err: 0.00018450104107614607
+
+Current GPT-PINN Depth: [1,1,1]
+
+Begin GPT-PINN Training (Finding Neuron 2 / Using 1 Neurons)
+GPT-PINN Training Completed
+GPT Training Time (1 Neurons): 0.0003262356291654416 Hours
+
+Largest Loss (Using 1 Neurons): 2.850133180618286
+Parameter Case: 23
+******************************************************************
+Begin Full PINN Training: case = 23 (Obtaining Neuron 2)
+Epoch: 5000 | loss: 0.0023067379370331764	 ep time: 0.001613927073776722
+Epoch: 10000 | loss: 0.00012032092490699142	 ep time: 0.0016106490511447191
+Epoch: 15000 | loss: 0.00010658738028723747	 ep time: 0.0016183669213205576
+Epoch: 20000 | loss: 9.51000110944733e-05	 ep time: 0.001592672080732882
+Epoch: 25000 | loss: 8.103314030449837e-05	 ep time: 0.0016245130682364106
+Epoch: 30000 | loss: 6.561912596225739e-05	 ep time: 0.0015992020489647985
+Epoch: 35000 | loss: 5.1712471758946776e-05	 ep time: 0.001608163001947105
+Epoch: 40000 | loss: 4.1004976083058864e-05	 ep time: 0.0016161419916898012
+PINN Training Completed
+
+PINN Training Time: 0.028882886998342454 Hours
+pinn rel err: 3.877008202834986e-05
+
+Current GPT-PINN Depth: [1,2,1]
+
+Begin GPT-PINN Training (Finding Neuron 3 / Using 2 Neurons)
+GPT-PINN Training Completed
+GPT Training Time (2 Neurons): 0.004444947904460908 Hours
+
+Largest Loss (Using 2 Neurons): 0.20248496532440186
+Parameter Case: 516
+******************************************************************
+Begin Full PINN Training: case = 516 (Obtaining Neuron 3)
+Epoch: 5000 | loss: 3.6308967537479475e-05	 ep time: 0.0016084039816632867
+Epoch: 10000 | loss: 2.137662704626564e-05	 ep time: 0.001610476989299059
+Epoch: 15000 | loss: 2.724012483668048e-05	 ep time: 0.0016205640276893973
+Epoch: 20000 | loss: 1.8730894225882366e-05	 ep time: 0.0016173330368474126
+Epoch: 25000 | loss: 1.7797030523070134e-05	 ep time: 0.0016038609901443124
+Epoch: 30000 | loss: 1.6871816114871763e-05	 ep time: 0.0016252420609816909
+Epoch: 35000 | loss: 1.5993105989764445e-05	 ep time: 0.0016071860445663333
+Epoch: 40000 | loss: 1.5155304936342873e-05	 ep time: 0.0016138480277732015
+PINN Training Completed
+
+PINN Training Time: 0.028895412233347694 Hours
+pinn rel err: 5.00606547575444e-05
+
+Current GPT-PINN Depth: [1,3,1]
+
+Begin GPT-PINN Training (Finding Neuron 4 / Using 3 Neurons)
+GPT-PINN Training Completed
+GPT Training Time (3 Neurons): 0.006568193192522611 Hours
+
+Largest Loss (Using 3 Neurons): 0.09684839099645615
+Parameter Case: 443
+******************************************************************
+Begin Full PINN Training: case = 443 (Obtaining Neuron 4)
+Epoch: 5000 | loss: 0.0004942308296449482	 ep time: 0.0015950619708746672
+Epoch: 10000 | loss: 0.00011173740494996309	 ep time: 0.001673298073001206
+Epoch: 15000 | loss: 9.716738713905215e-05	 ep time: 0.0016299469862133265
+Epoch: 20000 | loss: 8.721670019440353e-05	 ep time: 0.0016100960783660412
+Epoch: 25000 | loss: 7.855550211388618e-05	 ep time: 0.0016207239823415875
+Epoch: 30000 | loss: 6.955418211873621e-05	 ep time: 0.0016214309725910425
+Epoch: 35000 | loss: 5.8814865042222664e-05	 ep time: 0.001614938024431467
+Epoch: 40000 | loss: 4.604045898304321e-05	 ep time: 0.0016221300465986133
+PINN Training Completed
+
+PINN Training Time: 0.02891766582971387 Hours
+pinn rel err: 0.00029715526034124196
+
+Current GPT-PINN Depth: [1,4,1]
+
+Begin GPT-PINN Training (Finding Neuron 5 / Using 4 Neurons)
+GPT-PINN Training Completed
+GPT Training Time (4 Neurons): 0.0077343879791765685 Hours
+
+Largest Loss (Using 4 Neurons): 0.01664075255393982
+Parameter Case: 514
+******************************************************************
+Begin Full PINN Training: case = 514 (Obtaining Neuron 5)
+Epoch: 5000 | loss: 0.00018999850726686418	 ep time: 0.0016129299765452743
+Epoch: 10000 | loss: 3.118986569461413e-05	 ep time: 0.0015964959748089314
+Epoch: 15000 | loss: 2.4566345018683933e-05	 ep time: 0.0015957440482452512
+Epoch: 20000 | loss: 2.3879330910858698e-05	 ep time: 0.0016064360970631242
+Epoch: 25000 | loss: 2.3494105334975757e-05	 ep time: 0.0015921849990263581
+Epoch: 30000 | loss: 2.3140593839343637e-05	 ep time: 0.001602143980562687
+Epoch: 35000 | loss: 2.2772306692786515e-05	 ep time: 0.0016143539687618613
+Epoch: 40000 | loss: 2.2398990040528588e-05	 ep time: 0.0016100599896162748
+PINN Training Completed
+
+PINN Training Time: 0.028950302578321294 Hours
+pinn rel err: 4.921038998872973e-05
+
+Current GPT-PINN Depth: [1,5,1]
+
+Begin GPT-PINN Training (Finding Neuron 6 / Using 5 Neurons)
+GPT-PINN Training Completed
+GPT Training Time (5 Neurons): 0.008028546237781282 Hours
+
+Largest Loss (Using 5 Neurons): 0.016337815672159195
+Parameter Case: 365
+******************************************************************
+Begin Full PINN Training: case = 365 (Obtaining Neuron 6)
+Epoch: 5000 | loss: 0.00028898046002723277	 ep time: 0.001606712001375854
+Epoch: 10000 | loss: 0.00024907253100536764	 ep time: 0.0016030620317906141
+Epoch: 15000 | loss: 0.00010512294102227315	 ep time: 0.0016065509989857674
+Epoch: 20000 | loss: 2.664782732608728e-05	 ep time: 0.0016321269795298576
+Epoch: 25000 | loss: 1.708028867142275e-05	 ep time: 0.0016336539993062615
+Epoch: 30000 | loss: 1.1993287444056477e-05	 ep time: 0.0016100789653137326
+Epoch: 35000 | loss: 8.300301487906836e-06	 ep time: 0.0016141260275617242
+Epoch: 40000 | loss: 5.8312407418270595e-06	 ep time: 0.0016223290003836155
+PINN Training Completed
+
+PINN Training Time: 0.0290446632508085 Hours
+pinn rel err: 0.0001558101357659325
+
+Current GPT-PINN Depth: [1,6,1]
+
+Begin GPT-PINN Training (Finding Neuron 7 / Using 6 Neurons)
+GPT-PINN Training Completed
+GPT Training Time (6 Neurons): 0.0077452555980804996 Hours
+
+Largest Loss (Using 6 Neurons): 0.009253690019249916
+Parameter Case: 42
+******************************************************************
+Begin Full PINN Training: case = 42 (Obtaining Neuron 7)
+Epoch: 5000 | loss: 0.00010428723908262327	 ep time: 0.0015981319593265653
+Epoch: 10000 | loss: 6.29400456091389e-05	 ep time: 0.0016043129144236445
+Epoch: 15000 | loss: 5.3147457947488874e-05	 ep time: 0.0015974140260368586
+Epoch: 20000 | loss: 4.61635208921507e-05	 ep time: 0.0016012859996408224
+Epoch: 25000 | loss: 4.233867002767511e-05	 ep time: 0.0016136278863996267
+Epoch: 30000 | loss: 4.0668182919034734e-05	 ep time: 0.0016112129669636488
+Epoch: 35000 | loss: 3.9278882468352094e-05	 ep time: 0.0016175489872694016
+Epoch: 40000 | loss: 3.783750071306713e-05	 ep time: 0.0016179269878193736
+PINN Training Completed
+
+PINN Training Time: 0.02891230542610477 Hours
+pinn rel err: 0.0011410743463784456
+
+Current GPT-PINN Depth: [1,7,1]
+
+Begin GPT-PINN Training (Finding Neuron 8 / Using 7 Neurons)
+GPT-PINN Training Completed
+GPT Training Time (7 Neurons): 0.007836435256661693 Hours
+
+Largest Loss (Using 7 Neurons): 0.007899045944213867
+Parameter Case: 891
+******************************************************************
+Begin Final Full PINN Training: case = 891 (Obtaining Neuron 8)
+Epoch: 5000 | loss: 0.003973717335611582	 ep time: 0.0016006570076569915
+Epoch: 10000 | loss: 0.0014721626648679376	 ep time: 0.0016003469936549664
+Epoch: 15000 | loss: 0.000782324408646673	 ep time: 0.0016004840144887567
+Epoch: 20000 | loss: 1.246486499439925e-05	 ep time: 0.0016090810531750321
+Epoch: 25000 | loss: 7.582121270388598e-06	 ep time: 0.0016156629426404834
+Epoch: 30000 | loss: 5.3690509957959875e-06	 ep time: 0.0016181820537894964
+Epoch: 35000 | loss: 4.083959083800437e-06	 ep time: 0.001618522102944553
+Epoch: 40000 | loss: 3.2152527182915946e-06	 ep time: 0.0016073609003797174
+PINN Training Completed
+
+PINN Training Time: 0.028915746555301464 Hours
+pinn rel err: 0.0008152419468387961
+
+Current GPT-PINN Depth: [1,8,1]
+
+Begin Final GPT-PINN Training (Finding Neuron 9 / Using 8 Neurons)
+GPT-PINN Training Completed
+GPT Training Time (8 Neurons): 0.00821473820248179 Hours
+
+Largest Loss (Using 8 Neurons): 0.0025533102452754974
+Parameter Case: 941
+******************************************************************
+*** Full PINN and GPT-PINN Training Complete ***
+total training time : 0.2720925349772248 hours
+Case indices selected by GPT-PINN Depth [1, 8, 1]: [ 23 516 443 514 365  42 891 941]
+Largest Loss of GPT-PINN Depth [1, 1, 1]: 2.850133180618286
+Largest Loss of GPT-PINN Depth [1, 2, 1]: 0.20248496532440186
+Largest Loss of GPT-PINN Depth [1, 3, 1]: 0.09684839099645615
+Largest Loss of GPT-PINN Depth [1, 4, 1]: 0.01664075255393982
+Largest Loss of GPT-PINN Depth [1, 5, 1]: 0.016337815672159195
+Largest Loss of GPT-PINN Depth [1, 6, 1]: 0.009253690019249916
+Largest Loss of GPT-PINN Depth [1, 7, 1]: 0.007899045944213867
+Largest Loss of GPT-PINN Depth [1, 8, 1]: 0.0025533102452754974

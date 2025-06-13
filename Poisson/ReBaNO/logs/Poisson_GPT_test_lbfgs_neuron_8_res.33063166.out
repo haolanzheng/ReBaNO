@@ -1,0 +1,61 @@
+Current Device: cuda
+Nx :  32 
+
+avg training time on test dataset: 0.40705228597740645 seconds
+mean loss on test dataset: 0.0003238506648585826
+mean rel test err: 0.0011659168199985288, largest rel test err: 0.02001502364873886 
+
+Nx :  50 
+
+avg training time on test dataset: 0.40606974090472797 seconds
+mean loss on test dataset: 0.0003240570593151233
+mean rel test err: 0.001166856226080199, largest rel test err: 0.020032793283462524 
+
+Nx :  64 
+
+avg training time on test dataset: 0.40720993822044693 seconds
+mean loss on test dataset: 0.0003241768967666303
+mean rel test err: 0.0011676416147165583, largest rel test err: 0.02004389837384224 
+
+Nx :  100 
+
+avg training time on test dataset: 0.40744220399064945 seconds
+mean loss on test dataset: 0.00032437539859063235
+mean rel test err: 0.0011677571763775631, largest rel test err: 0.02004782296717167 
+
+Nx :  200 
+
+avg training time on test dataset: 0.4077654335766565 seconds
+mean loss on test dataset: 0.0003245982375400445
+mean rel test err: 0.001167920575622702, largest rel test err: 0.020053179934620857 
+
+Nx :  256 
+
+avg training time on test dataset: 0.40662449251255023 seconds
+mean loss on test dataset: 0.00032465306203698676
+mean rel test err: 0.0011678815722752916, largest rel test err: 0.020055044442415237 
+
+Nx :  400 
+
+avg training time on test dataset: 0.4108174183489755 seconds
+mean loss on test dataset: 0.00032472669195044546
+mean rel test err: 0.0011680133751215181, largest rel test err: 0.02005506306886673 
+
+Nx :  512 
+
+avg training time on test dataset: 0.40842425149795597 seconds
+mean loss on test dataset: 0.00032475639094525376
+mean rel test err: 0.0011680590299311007, largest rel test err: 0.020055819302797318 
+
+Nx :  800 
+
+avg training time on test dataset: 0.4119274520582985 seconds
+mean loss on test dataset: 0.0003247953725336856
+mean rel test err: 0.0011679638297846396, largest rel test err: 0.020056113600730896 
+
+Nx :  1024 
+
+avg training time on test dataset: 0.4090983273442835 seconds
+mean loss on test dataset: 0.0003248107885303853
+mean rel test err: 0.0011678609407717885, largest rel test err: 0.020056070759892464 
+
