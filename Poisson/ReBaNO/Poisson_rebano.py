@@ -4,13 +4,13 @@ torch.set_default_dtype(torch.float)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 class ReBaNO(nn.Module):
+    """ReBaNO of 1d Poisson equation"""
     def __init__(self, layers, P, initial_c, BC_u, f_hat, activation_resid, activation_BC, Pxx):
         super().__init__()
         self.layers     = layers
         self.activation = P
         
         self.loss_function = nn.MSELoss(reduction='mean').to(device)
-        #self.loss_function = custom_MSELoss
         self.linears = nn.ModuleList([nn.Linear(layers[1], layers[2], bias=False)])
         
         self.BC_u  = BC_u
