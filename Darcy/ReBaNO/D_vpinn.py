@@ -197,7 +197,7 @@ class VPINN(nn.Module):
         ux = u_x_all.view(self.Nex, self.Ney, 1, 1, self.Nq)
         uy = u_y_all.view(self.Nex, self.Ney, 1, 1, self.Nq)
 
-        # Compute variational integrand
+        # Compute variational integrand a ∇u · ∇v + f·v
         t1 = (self.jac_exp/self.jacx_exp) * self.a_elem * ux * self.wqx_q * self.wqy_q * self.d1testx_e * self.testy_e
         t2 = (self.jac_exp/self.jacy_exp) * self.a_elem * uy * self.wqx_q * self.wqy_q * self.testx_e * self.d1testy_e
         t3 =  self.jac_exp           * self.f_elem * self.wqx_q * self.wqy_q * self.testx_e * self.testy_e
@@ -205,7 +205,7 @@ class VPINN(nn.Module):
 
         # Sum over quadrature points
         u_elem = integrand.sum(dim=-1).view(-1, 1)
-        # H1‐seminorm residual coupling
+        # L_r = R^T G^{-1} R
         lossr = (u_elem.T @ (self.inv_gram @ u_elem)).squeeze()
 
         # Boundary mean‐square loss
